@@ -1,0 +1,35 @@
+body {
+    background-image: url("bg.jpg");
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.btn-button {
+    cursor: pointer;
+    font-size: 22px;
+    margin: 0px 0px 0px 100px;
+    position: relative;
+    width: 200px;
+    background-color: black;
+    border-color: greenyellow;
+    color: greenyellow;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.5sec all;
+    overflow: hidden;
+    padding: 15px;
+}
+
+.btn-button:hover {
+    background-color: black;
+    box-shadow: 0px 2px 10px 5px yellow;
+    border-color: yellow;
+    color: white;
+}
+
+.btn-button:focus {
+    outline: none;
+}
